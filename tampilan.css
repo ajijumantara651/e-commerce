@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+ 
+body
+{
+    background-color: #C0C0C0;
+}
+ 
+.badan-utama
+{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+
+header
+{
+    background-image:url(BannerSR.jpg);
+	background-color: crimson;
+    color: white;
+    padding: 20px;
+	height: 162px;
+}
+ 
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+ 
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.navigasi li 
+{
+    float: left;
+}
+ 
+.navigasi li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover 
+{
+    background-color:grey;
+    transition-duration: 2s;
+}
+ 
+.banner
+{
+    padding: 15px 15px 15px 15px; 
+}
+ 
+.banner img
+{
+    display: block;
+    width: 100%;
+    height: 330px;
+}
+ 
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h3
+{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p
+{
+    margin-bottom: 10px;
+}
+ 
+.menu-kiri
+{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah
+{
+    width: 530px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah h3
+{
+    background: none;
+    color: crimson;
+    margin-bottom: 0;
+}
+
+.menu-tengah1
+{
+    width: 100%;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah1 h3
+{
+    background: none;
+    color: crimson;
+    margin-bottom: 0;
+}
+ 
+.tanggal-posting
+{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 2s;
+}
+ 
+.tombol-pesan
+{
+    background-color: green;
+}
+ 
+.tombol-lengkap
+{
+    background-color: darkorange;
+}
+ 
+.menu-kanan
+{
+    width: 250px;
+    float: left;
+}
+ 
+.menu-kanan, .menu-kiri, .menu-tengah
+{
+    margin-bottom: 15px;
+}
+ 
+footer
+{
+    clear: both;
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+.menu-artikel ul
+{
+    list-style-type: none;
+}
+ 
+.menu-artikel ul li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.menu-artikel ul li a:hover
+{
+    color: darkorange;
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
+
+/*Menu*/
+.vertical-menu {
+  width: 100%;
+}
+
+.vertical-menu a {
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+ 
+/* Table */
+table {
+    margin: auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+	font-size: 12px;
+	width: 100%;
+}	
+.demo-table {
+	border-collapse: collapse;
+	font-size: 13px;
+}
+.demo-table th, 
+.demo-table td {
+	border-bottom: 1px solid #e1edff;
+	border-left: 1px solid #e1edff;
+	padding: 7px 17px;
+}
+.demo-table th, 
+.demo-table td:last-child {
+	border-right: 1px solid #e1edff;
+}
+.demo-table td:first-child {
+	border-top: 1px solid #e1edff;
+}
+.demo-table td:last-child{
+	border-bottom: 0;
+}
+caption {
+	caption-side: top;
+	margin-bottom: 10px;
+	text-align:center;
+	font-size:24px;
+	background-color:#F90
+}
+		
+/* Table Header */
+.demo-table thead th {
+	background-color: #508abb;
+	color: #FFFFFF;
+	border-color: #6ea1cc !important;
+	text-transform: uppercase;
+}
+		
+/* Table Body */
+.demo-table tbody td {
+	color: #353535;
+}
+.demo-table tbody tr:nth-child(odd) td {
+	background-color: #f4fbff;
+}
+.demo-table tbody tr:hover th,
+.demo-table tbody tr:hover td {
+	background-color: #ffffa2;
+	border-color: #ffff0f;
+	transition: all .2s;
+}
+  
+/* Galery Image */
+.badan
+{
+    width: 1030px;
+    margin: 5px auto;
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+ 
+.badan h2
+{
+    color: crimson;
+    border-bottom: 1px solid gainsboro;
+    margin: 0px;
+    margin-bottom: 13px;
+}
+ 
+.list-produk
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 192px;
+    margin: 5px;
+}
+ 
+.list-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+ 
+.list-produk img
+{
+    width: 100%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.list-produk h4, .list-produk h5
+{
+    color: crimson;
+    text-align: center;
+    margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.list-produk-det-1
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 35%;
+    margin: 5px;
+}
+ 
+.list-produk-det-1:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+ 
+.list-produk-det-1 img
+{
+    width: 307px;
+    height: 470px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.list-produk-det-2
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 63%;
+    margin: 5px;
+}
+ 
+.list-produk-det-2:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+ 
+.list-produk-det-2 h4, .list-produk-det-2 h5
+{
+    color: crimson;
+    text-align: left;
+    margin-bottom: 5px;
+	font-size: 18px;
+}
+ 
+.tombol
+{
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 165px;
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 700ms;
+}
+ 
+.tombol-detail
+{
+    background-color: green;
+}
+ 
+.tombol-beli
+{
+    background-color: crimson;
+}
+
+.tombol-1
+{
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 55px;
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+ 
+.tombol-1:hover
+{
+    background-color: black;
+    transition-duration: 700ms;
+}
+ 
+.tombol-1-beli
+{
+    background-color: crimson;
+}
+
+.tombol-1-detail
+{
+    background-color: green;
+}
+
+
