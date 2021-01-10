@@ -1,2 +1,3 @@
-$('#toggle-login').click(function () {
+$('#toggle-logout').click(function(){
+  $('#logout').toggle();
 });
